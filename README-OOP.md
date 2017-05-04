@@ -44,7 +44,7 @@ Generally considered, abstraction is a focus to essential qualities, disregardin
 
 # Key OOD & Software Development Concepts:
 
-#### 1. Classes
+#### 1. Class
 
 OOP revolves around a construct called a 'class'.  Classes are blue prints or templates that are used to define objects.  They provide basis from which you can create specific instances of the entity the class models. For example, an employee management application may include an Employee class. You can then call upon this class to create and maintain specific instances or entities, say Peter and Josh (objects), for example.
 
