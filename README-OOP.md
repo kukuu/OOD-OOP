@@ -1,6 +1,6 @@
 
 
-# Benefits of OOP
+# Benefits of OOD & OOP
 
 #### 1. Inheritance
 
