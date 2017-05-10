@@ -5,7 +5,7 @@
 #### 1. Inheritance
 
 Inheritance is a fundamental capability construct in OOP where you can use one class, as the base or basis for another class or many other classes. Doing this allows you to efficiently re-use the code found in your base class. 
-Inheritance can make your code lighter, because you are re-using the same code in a number of different classes. This a sort of PHP includes.
+Inheritance can make your code lighter, because you are re-using the same code in a number of different classes. 
 
 The object-oriented development methodology places great stock in the concept of inheritance. This strategy promotes code re-usability and assumes that one will be able to use well-designed classes within numerous applications (design pattern).
 
