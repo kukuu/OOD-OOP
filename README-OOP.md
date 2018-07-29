@@ -136,7 +136,7 @@ There are following six phases in every Software development life cycle model:
 	After the code is developed it is tested against the requirements to make sure that the product is actually 
 	solving the needs addressed and gathered during the requirements phase. During this phase all types of 
 	functional testing like unit testing, integration testing, system testing, acceptance testing are done as 
-	well as non-functional testing are also done.
+	well as non-functional testing are also done. Reference is made to Test Pyramid Cycle and Coverage.
 
 5)  Deployment: After successful testing the product is delivered / deployed to the customer for their use.
 
