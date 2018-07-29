@@ -150,3 +150,82 @@ There are following six phases in every Software development life cycle model:
     needs to be solved from time to time. This process where   the care is taken for the developed product
     is known as maintenance.
 
+# Three Types of Design Patterns
+
+Design Patterns are reusable solutions to commonly occuring problems(in the context of software design). Design patterns were started as best practices that are applied again and again to similar problems encountered in different contexts.
+
+Working with design patterns during software development can be tricky at times. Their purpose is to provide guidelines for dealing with particular problems that might arise during development. 
+
+## Behavioral patterns
+
+Behavioral patterns describe interactions between objects and focus on how objects communicate with each other. They can reduce complex flow charts to mere interconnections between objects of various classes. Behavioral patterns are also used to make the algorithm that a class uses simply another parameter that is adjustable at runtime.
+Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them. 
+These patterns characterize complex control flow that is difficult to follow at run-time. They shift your focus away from the flow of control to let you concentrate just on the way objects are interconnected. Behavioral class patterns use inheritance to distribute behavior between classes. 
+The Template Method is the simpler and more common of the two. A template method is an abstract definition of an algorithm. It defines the algorithm step by step. Each step invokes either an abstract operation or a primitive operation. A subclass fleshes out the algorithm by defining the abstract operations. The other behavioral class pattern is Interpreter pattern, which represents a grammar as a class hierarchy and implements an interpreter as an operation on instances of these classes.
+
+## Creational Patterns
+
+Creational patterns are used to create objects for a suitable class that serves as a solution for a problem. Generally when instances of several different classes are available. They are particularly useful when you are taking advantage of polymorphism and need to choose between different classes at runtime rather than compile time.
+Creational patterns support the creation of objects in a system. 
+
+Creational patterns allow objects to be created in a system without having to identify a specific class type in the code, so you do not have to write large, complex code to instantiate an object. It does this by having the subclass of the class create the objects. However, this can limit the type or number of objects that can be created within a system.
+
+### Examples
+
+#### Abstract Factory 
+
+Encapsulates groups of factories based on common themes. Often uses polymorphism, the concept in object-oriented programming that allows one interface to serve as a basis for multiple functions of different types.
+
+#### Builder 
+
+Splits up the construction of an object from its representation. This is usually done by defining a Builder object that presents methods to update the object, without directly interacting with the object itself.
+
+#### Factory
+
+Creates objects without the need to specify the exact class or type of object to be created. As the name suggests, this object instantiation is performed through a secondary Factory class, again using polymorphism.
+
+#### Prototype
+
+Creates new objects by prototyping or cloning a prototypical instance of an object. Effectively, an abstract Prototype class is created, and from that base prototype, new secondary inherited classes are defined.
+
+#### Singleton
+
+Restricts the total number of instances of a particular class to only one at a time. This is commonly used when global access to the object is required across the system, and any changes or queries to the object must be consistent and identical.
+
+## Structural Patterns
+
+Structural patterns focus on the composition of classes and objects. By using inheritance and interfaces, these patterns allow objects to be composed in a manner that provides new functionality. They form larger structures from individual parts, generally of different classes.
+
+
+As a simple example, consider how multiple inheritance mixes two or more classes into one. The result is a class that combines the properties of its parent classes. This pattern is particularly useful for making independently developed class libraries work together. 
+
+### Examples
+
+#### Adapter
+
+Allows for an interface, which is otherwise incompatible, to be adapted to fit a new class. Typically, this is performed by creating a new ClassNameAdapter class that implements the interface, allowing for compatibility across the system.
+
+#### Bridge
+
+Distinguishes between implementation and abstraction. Or, put another way, it’s a pattern that separates the “look and feel” of code from the “logical behavior” of it, which we often see in websites and other visual applications.
+
+#### Composite
+
+Groups of objects should behave the same as individual objects from within that group. Primarily useful when creating a collection of objects that inherit from the same type, yet are uniquely different types themselves. Since they are of the same composition type, their behavior should be identical when combined into a collective group.
+
+#### Decorator
+
+Dynamically modifies the behavior of an object at run time, typically by wrapping the object in a decorator class. This pattern is commonly used when an object is instantiated, but as code execution progresses, modifications must be made to the object before it is finalized.
+
+#### Facade
+
+Creates a front-end (facade) object that obfuscates and simplifies interactions between it and the more complicated interface behind it. Commonly used when a complex series of actions must take place to perform a task, where executing each and every task, in order, is too complicated. Instead, a simple facade replaces that series of tasks with a single task to be executed.
+
+#### Flyweight
+
+Reduces memory and resource usage by sharing data with other, similar objects. Often relies heavily on Factory-style patterns to access and store already generated data during future executions.
+
+#### Proxy 
+
+Defines a wrapper class for an object, which acts as an interface for the wrapped object. Typically, the proxy class attaches additional behavior onto the wrapped object, without the need to modify the base object class behavior.
+Three Categories of Design Patterns
