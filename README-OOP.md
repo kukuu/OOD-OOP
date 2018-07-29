@@ -159,9 +159,58 @@ Working with design patterns during software development can be tricky at times.
 ## Behavioral patterns
 
 Behavioral patterns describe interactions between objects and focus on how objects communicate with each other. They can reduce complex flow charts to mere interconnections between objects of various classes. Behavioral patterns are also used to make the algorithm that a class uses simply another parameter that is adjustable at runtime.
+
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them. 
+
+
 These patterns characterize complex control flow that is difficult to follow at run-time. They shift your focus away from the flow of control to let you concentrate just on the way objects are interconnected. Behavioral class patterns use inheritance to distribute behavior between classes. 
-The Template Method is the simpler and more common of the two. A template method is an abstract definition of an algorithm. It defines the algorithm step by step. Each step invokes either an abstract operation or a primitive operation. A subclass fleshes out the algorithm by defining the abstract operations. The other behavioral class pattern is Interpreter pattern, which represents a grammar as a class hierarchy and implements an interpreter as an operation on instances of these classes.
+
+### Examples 
+
+#### Chain of Responsibility
+
+Forces execution to follow a specific chain of command during execution, such that the first object is used, then the second, and so on. Often used as a failsafe in applications, checking the validity of the primary object, before moving onto the secondary object if the primary fails, and so forth.
+
+#### Command 
+
+Decouples the actions of the client from the behavior of the receiver. Often through the use of an interface, an object can specify individual behavior when a particular command is invoked, while a different object type can use that same command, but invoke its own unique behavior instead.
+
+#### Interpreter
+
+Defines a series of classes used to interpret language syntax from a provided sentence. Typically, each symbol is defined by one class, and then a syntax tree is used to parse (interpret) the overall sentence.
+
+#### Iterator
+
+Allows access to underlying elements of an object, without exposing those elements or their respective logic. A very commonly used pattern, often as a simple means of fetching the next item in a list or array of objects.
+
+#### Mediator 
+
+Generates a third party object (mediator) that acts as a go-between for interactions between two other similar objects (colleagues). Commonly, this is used when multiple objects need to communicate, but do not (or should not) be aware of the others respective implementation or behavior.
+
+#### Memento
+
+Stores the state of an object, allowing for restoration (rollback) of the object to a previous state. This behavior is well-known when using word processors that implement the undo feature.
+
+
+#### Observer 
+
+Creates an event-based dependency between objects, such that an update to the observed object causes the observer objects to be notified. Typically, this is found in many languages that utilize asynchronous functionality, which requires events to be observed and responded to outside of typical execution order.
+
+#### State 
+
+Allows for the behavior of a class to change based on the current state. While these states are often changed throughout execution, the implementation of each possible state is typically defined by a unique class interface.
+
+#### Strategy 
+
+Defines a pattern where logical strategy changes based on the current situation. This is merely an object-oriented extension of common if-else statements, by altering the execution of code based on the outcome of previous code.
+
+#### Template
+
+Allows for a skeletal template to be used as the basis for execution, without defining the inner-workings of any individual class or object. This is commonly seen in web applications, where the visual interface of the application is generated using templates, which are created using underlying data, but neither the template nor the underlying data are aware of the implementation of the other.
+
+#### Visitor
+
+Allows for new operations to be added to objects without modifying their original implementation structures. Typically, the visitor class defines unique methods that are shared between it and other objects, without the need for the other object to be aware of the additional functionality.
 
 ## Creational Patterns
 
