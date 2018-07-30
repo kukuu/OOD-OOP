@@ -113,7 +113,7 @@ In short, it is easier to have multiple programmers working on code base and not
 
 5. You can use the components to build a library. Most of the components of the library you build can be imported into other projects.
 
-6. OOP principles are consistent in other languages, so it is easy to move from one OOP language say PHP to say Ruby or Java. Though syntaxes may vary and are quite minimal. The same is for frameworks like Zend, Pear and Smarty templates.
+6. OOP principles are consistent in other languages, so it is easy to move from one OOP language say PHP to say Ruby or Java. Though syntaxes may vary and are quite minimal. The same is for frameworks like Zend, Pear, Smarty templates and many more.
 
 # Software Development Life Cycle
 
