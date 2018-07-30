@@ -1,6 +1,6 @@
 
 
-# Benefits of Object Oriented Design  & Object Oriented Programming
+# Object Oriented Design  & Object Oriented Programming
 
 ## Features of OOP
 
