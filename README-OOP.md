@@ -1,6 +1,8 @@
 
 
-# Benefits of OOD & OOP
+# Benefits of Object Oriented Design  & Object Oriented Programming
+
+## Features of OOP
 
 #### 1. Inheritance
 
@@ -85,6 +87,33 @@ The use of interfaces allows this technique to support the Polymorphic behavior 
 
 Business domain classes may all be manifested as base classes without any inheritance at all.
 
+# Advantages of Object Oriented Programming
+
+In OOP, you think of software as being a series of virtual objects. A series of mini programs inside a larger one. The larger program is the entire script for the application that you are writing. This could be a blog or message board. A list of  mini programs within the application could be;
+
+```
+An object to connect to  a database for the application
+
+An object to handle validation
+
+An object for handling user input
+
+An object to build a table for the result of a query from a database
+
+```
+1. All these help to give you better organization and management of your code base. OOP allows you to create re-usable block/components of code if designed properly.
+
+2. Easy to update OOP system as they are modular based. OOP systems are designed to be plug and play.
+
+3. Since the whole application is segmented, you can adopt division of labor. Developers can work co-currently on different models/components to build objects for the application without interfering with one another. 
+
+In short, it is easier to have multiple programmers working on code base and not worrying about touching or breaking code in other parts of the system.
+
+4. You can eliminate a distinctive functional component from the system and should not affect other functional components of the system.
+
+5. You can use the components to build a library. Most of the components of the library you build can be imported into other projects.
+
+6. OOP principles are consistent in other languages, so it is easy to move from one OOP language say PHP to say Ruby or Java. Though syntaxes may vary and are quite minimal. The same is for frameworks like Zend, Pear and Smarty templates.
 
 # Software Development Life Cycle
 
