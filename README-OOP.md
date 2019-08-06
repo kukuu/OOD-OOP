@@ -27,7 +27,7 @@ The developer can change the application implementation without affecting the ob
 
 Potential of user error is reduced because of the control exercised over the user’s interaction with the application.
 
-Gateways as use in encapsulation -https://github.com/kukuu/digitalTransformationStrategies/blob/master/APIgatewayResolution4microservices.png
+Gateways as an  encapsulation entity -https://github.com/kukuu/digitalTransformationStrategies/blob/master/APIgatewayResolution4microservices.png
 
 #### 3. Polymorphism
 
