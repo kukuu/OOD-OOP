@@ -22,8 +22,12 @@ signal to a different frequency associated with another radio station. Failing t
 In OOP, the practice of separating the user from the true inner workings of an application through well-known interfaces is known as encapsulation. The embodiment of the application is a number of independent components. These components are known as objects and objects are created from a blue print or templates called class.
 
 Classes specify what sort of data (properties) the object might contain and the behavior (method) one would expect. This strategy offers the following advantages:
+
 The developer can change the application implementation without affecting the object user, because the user’s only interaction with the object is via an interface.
+
 Potential of user error is reduced because of the control exercised over the user’s interaction with the application.
+
+Gateways as use in encapsulation -https://github.com/kukuu/digitalTransformationStrategies/blob/master/APIgatewayResolution4microservices.png
 
 #### 3. Polymorphism
 
