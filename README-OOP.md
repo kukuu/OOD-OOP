@@ -17,7 +17,7 @@ A design pattern is the ability to have a reusable solution in solving a common 
 #### 2. Encapsulation
 
 Programmers enjoy putting little things together as well as taking things apart. Although self satisfying, such in-depth knowledge of an item’s inner working is normally not a requirement. Millions of people use radio sets and computers, however not knowing the underlying architecture and procedures of how they work. Typical example is the radio. By changing a station, what you are actually doing is changing the 
-signal to a different frequency associated with another radio station. Failing to understand this concept should not stop you from using the radio, because the interface takes care to hide such details.
+signal to a different frequency associated with another radio station. Failing to understand this concept should not stop you from using the radio, because the interface takes care to hide such details - Gateways per say.
 
 In OOP, the practice of separating the user from the true inner workings of an application through well-known interfaces is known as encapsulation. The embodiment of the application is a number of independent components. These components are known as objects and objects are created from a blue print or templates called class.
 
