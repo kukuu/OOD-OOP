@@ -148,7 +148,7 @@ There are following six phases in every Software development life cycle model:
 	phase of the model. The testing team follows the Software Testing Life Cycle and starts the Test Planning 
 	phase after the requirements analysis is completed.
 
-2)  Design:  
+2)  Design and Architecture:  
 
 	In this phase the system and software design is prepared from the requirement specifications
 	which were studied in the first phase. System Design helps in specifying hardware and system 
